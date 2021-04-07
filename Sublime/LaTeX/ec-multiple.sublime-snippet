@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+\begin{equation}
+    \begin{split}
+        &${1:ecuacion 1}\\\
+        &${2:ecuacion 2}
+    \end{split}
+    \label{ec:${3:label}}
+\end{equation}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ec2</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

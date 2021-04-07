@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=${1:tamaño figura}\linewidth]{${2:nombre electronico}}}
+    \captionsetup{width=${1:tamaño caption}\linewidth}
+    \caption{${3:caption}.}\label{fig:${4:label}}
+\end{figure}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>img1</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
